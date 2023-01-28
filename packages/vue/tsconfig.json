@@ -1,5 +1,5 @@
 {
-  "extend": "@ouuan/tsconfig-base",
+  "extends": "@ouuan/tsconfig-base",
   "display": "ouuan's tsconfig for Vue",
   "compilerOptions": {
     "lib": [

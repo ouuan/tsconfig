@@ -1,5 +1,5 @@
 {
-  "extend": "@tsconfig/node-lts-strictest-esm",
+  "extends": "@tsconfig/node-lts-strictest-esm",
   "display": "ouuan's basic tsconfig",
   "compilerOptions": {
     "baseUrl": "./",
