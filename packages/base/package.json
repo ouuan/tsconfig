@@ -1,6 +1,6 @@
 {
   "name": "@ouuan/tsconfig-base",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ouuan's personal ESLint configs for TypeScript",
   "repository": {
     "type": "git",
