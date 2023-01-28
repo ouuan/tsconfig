@@ -1,0 +1,18 @@
+{
+  "name": "@ouuan/tsconfig",
+  "version": "0.0.1",
+  "description": "ouuan's personal TypeScript configs",
+  "repository": "https://github.com/ouuan/tsconfig",
+  "author": "Yufan You <ouuansteve@gmail.com>",
+  "license": "Apache-2.0",
+  "private": true,
+  "keywords": [
+    "tsconfig"
+  ],
+  "scripts": {
+    "release": "bumpp package.json packages/*/package.json --no-commit --no-push --no-tag && git commit -av && git push && pnpm -r publish --access public"
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1"
+  }
+}

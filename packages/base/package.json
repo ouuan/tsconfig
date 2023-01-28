@@ -1,0 +1,19 @@
+{
+  "name": "@ouuan/tsconfig-base",
+  "version": "0.0.1",
+  "description": "ouuan's personal ESLint configs for TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouuan/tsconfig.git",
+    "directory": "packages/base"
+  },
+  "author": "Yufan You <ouuansteve@gmail.com>",
+  "license": "Apache-2.0",
+  "private": false,
+  "keywords": [
+    "tsconfig"
+  ],
+  "dependencies": {
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1"
+  }
+}
