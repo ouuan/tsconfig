@@ -1,14 +1,9 @@
 {
   "extend": "@tsconfig/node-lts-strictest-esm",
-  "display": "ouuan's base tsconfig",
+  "display": "ouuan's basic tsconfig",
   "compilerOptions": {
     "baseUrl": "./",
     "resolveJsonModule": true,
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
     "paths": {
       "~/*": [
         "src/*"
@@ -17,7 +12,6 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.vue",
     "*.ts"
   ]
 }

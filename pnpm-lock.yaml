@@ -14,6 +14,12 @@ importers:
     dependencies:
       '@tsconfig/node-lts-strictest-esm': 18.12.1
 
+  packages/vue:
+    specifiers:
+      '@ouuan/tsconfig-base': workspace:*
+    dependencies:
+      '@ouuan/tsconfig-base': link:../base
+
 packages:
 
   /@jsdevtools/ez-spawn/3.0.4:

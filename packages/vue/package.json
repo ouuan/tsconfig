@@ -1,11 +1,11 @@
 {
-  "name": "@ouuan/tsconfig-base",
+  "name": "@ouuan/tsconfig-vue",
   "version": "0.1.0",
-  "description": "ouuan's personal TypeScript config",
+  "description": "ouuan's personal TypeScript config for Vue",
   "repository": {
     "type": "git",
     "url": "https://github.com/ouuan/tsconfig.git",
-    "directory": "packages/base"
+    "directory": "packages/vue"
   },
   "author": "Yufan You <ouuansteve@gmail.com>",
   "license": "Apache-2.0",
@@ -14,6 +14,6 @@
     "tsconfig"
   ],
   "dependencies": {
-    "@tsconfig/node-lts-strictest-esm": "^18.12.1"
+    "@ouuan/tsconfig-base": "workspace:*"
   }
 }

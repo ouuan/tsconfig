@@ -1,0 +1,16 @@
+{
+  "extend": "@ouuan/tsconfig-base",
+  "display": "ouuan's tsconfig for Vue",
+  "compilerOptions": {
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "*.ts"
+  ]
+}
