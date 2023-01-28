@@ -3,6 +3,7 @@
   "display": "ouuan's basic tsconfig",
   "compilerOptions": {
     "exactOptionalPropertyTypes": false,
+    "noPropertyAccessFromIndexSignature": false,
     "resolveJsonModule": true,
     "paths": {
       "~/*": [
