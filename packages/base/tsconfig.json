@@ -3,6 +3,7 @@
   "display": "ouuan's basic tsconfig",
   "compilerOptions": {
     "baseUrl": "./",
+    "exactOptionalPropertyTypes": false,
     "resolveJsonModule": true,
     "paths": {
       "~/*": [
