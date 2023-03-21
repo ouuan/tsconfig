@@ -5,6 +5,8 @@
     "exactOptionalPropertyTypes": false,
     "noPropertyAccessFromIndexSignature": false,
     "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "importsNotUsedAsValues": "remove",
     "paths": {
       "~/*": [
         "src/*"
