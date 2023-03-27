@@ -10,9 +10,13 @@ importers:
 
   packages/base:
     specifiers:
-      '@tsconfig/node-lts-strictest-esm': ^18.12.1
+      '@tsconfig/esm': ^1.0.2
+      '@tsconfig/node-lts': ^18.12.1
+      '@tsconfig/strictest': ^2.0.0
     dependencies:
-      '@tsconfig/node-lts-strictest-esm': 18.12.1
+      '@tsconfig/esm': 1.0.2
+      '@tsconfig/node-lts': 18.12.1
+      '@tsconfig/strictest': 2.0.0
 
   packages/vue:
     specifiers:
@@ -53,8 +57,16 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tsconfig/node-lts-strictest-esm/18.12.1:
-    resolution: {integrity: sha512-LvBLmaC6Q/txTddLc11OeMHF9XjJFzlilkETJuvBlUvHy9pPiMsoH3nxWZM1FMSO53zp4mJP6gzOzxKEq0me7Q==}
+  /@tsconfig/esm/1.0.2:
+    resolution: {integrity: sha512-awiISx+G4L+7k97nKnfA5QF6rukawiuycMPfASFHG/0fqjrUlYBuNISy3Yjl1SHIpVi57lYf7dc6L/FoQQCKcA==}
+    dev: false
+
+  /@tsconfig/node-lts/18.12.1:
+    resolution: {integrity: sha512-UkIaMWDwJ+qJX/os8lzYh7m47qQJY7sIp1WZiEStASrpzczp27+jA0fJES+IjnS2OlDDLeBghNrVkKw8iYIRdA==}
+    dev: false
+
+  /@tsconfig/strictest/2.0.0:
+    resolution: {integrity: sha512-E0dpiZNdwO20c8d3seh7OmjAvDpwoRkTcU6M8cvggzB45Bd45tyTU2XJeA5Wfq+8NzVGhunvqOJ30AjSkywMXA==}
     dev: false
 
   /braces/3.0.2:

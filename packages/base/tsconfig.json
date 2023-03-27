@@ -1,5 +1,9 @@
 {
-  "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
+  "extends": [
+    "@tsconfig/strictest/tsconfig.json",
+    "@tsconfig/node-lts/tsconfig.json",
+    "@tsconfig/esm/tsconfig.json"
+  ],
   "display": "ouuan's basic tsconfig",
   "compilerOptions": {
     "exactOptionalPropertyTypes": false,
