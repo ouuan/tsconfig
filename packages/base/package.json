@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "@tsconfig/esm": "^1.0.3",
-    "@tsconfig/node-lts": "^18.12.1",
+    "@tsconfig/node-lts": "^18.12.2",
     "@tsconfig/strictest": "^2.0.1"
   }
 }
