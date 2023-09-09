@@ -18,11 +18,11 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       '@tsconfig/node-lts':
-        specifier: ^18.12.4
-        version: 18.12.4
+        specifier: ^18.12.5
+        version: 18.12.5
       '@tsconfig/strictest':
-        specifier: ^2.0.1
-        version: 2.0.1
+        specifier: ^2.0.2
+        version: 2.0.2
 
   packages/vue:
     dependencies:
@@ -67,12 +67,12 @@ packages:
     resolution: {integrity: sha512-bix9CWljCxyD06nGQRDYdmTw0wevvEDyrLKjbDocGV31JQYbfqqgMV1yFeJ9aDgorKQ9yDLrak8poiggsB5Liw==}
     dev: false
 
-  /@tsconfig/node-lts@18.12.4:
-    resolution: {integrity: sha512-yjhgQkwlIjxDksTSDbFl6fDOekgD0DeHXwfpxEnRY8rwK28UjgMf67b+l8SSVS0sRpOb/xYEKPJ8DpzhgLokZA==}
+  /@tsconfig/node-lts@18.12.5:
+    resolution: {integrity: sha512-KJZX0kQ5FBv77WDVzmQ9y1dUjaJCNXAAz3LSsg5cMwH0AUijVdDQtII+IVprEXdb13U9GjVOBxBzyRvr/ozPxw==}
     dev: false
 
-  /@tsconfig/strictest@2.0.1:
-    resolution: {integrity: sha512-7JHHCbyCsGUxLd0pDbp24yz3zjxw2t673W5oAP6HCEdr/UUhaRhYd3SSnUsGCk+VnPVJVA4mXROzbhI+nyIk+w==}
+  /@tsconfig/strictest@2.0.2:
+    resolution: {integrity: sha512-jt4jIsWKvUvuY6adJnQJlb/UR7DdjC8CjHI/OaSQruj2yX9/K6+KOvDt/vD6udqos/FUk5Op66CvYT7TBLYO5Q==}
     dev: false
 
   /acorn@8.10.0:
