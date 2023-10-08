@@ -15,8 +15,8 @@ importers:
   packages/base:
     dependencies:
       '@tsconfig/esm':
-        specifier: ^1.0.4
-        version: 1.0.4
+        specifier: ^1.0.5
+        version: 1.0.5
       '@tsconfig/node-lts':
         specifier: ^18.12.5
         version: 18.12.5
@@ -63,8 +63,9 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tsconfig/esm@1.0.4:
-    resolution: {integrity: sha512-bix9CWljCxyD06nGQRDYdmTw0wevvEDyrLKjbDocGV31JQYbfqqgMV1yFeJ9aDgorKQ9yDLrak8poiggsB5Liw==}
+  /@tsconfig/esm@1.0.5:
+    resolution: {integrity: sha512-JzoZ0h299JRLPfV5VBsMq1TuMy+OmU9bdV/7NcjfRojL0eIcA1k5ESrtjWrDwJRJnk9B0QmgR0rq04LERbdfWw==}
+    deprecated: this package has been deprecated
     dev: false
 
   /@tsconfig/node-lts@18.12.5:
