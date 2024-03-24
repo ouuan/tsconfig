@@ -18,11 +18,11 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5
       '@tsconfig/node-lts':
-        specifier: ^20.1.1
-        version: 20.1.1
+        specifier: ^20.1.2
+        version: 20.1.2
       '@tsconfig/strictest':
-        specifier: ^2.0.3
-        version: 2.0.3
+        specifier: ^2.0.4
+        version: 2.0.4
 
   packages/vue:
     dependencies:
@@ -68,12 +68,12 @@ packages:
     deprecated: this package has been deprecated
     dev: false
 
-  /@tsconfig/node-lts@20.1.1:
-    resolution: {integrity: sha512-V7wHydi1dv8I8xiOX3pJ0lhC+MlOakznvLks94J6y/TqQK6DBcbdD1G4jEq8yU+s6lBASPn4e1Ci636fDqeyvQ==}
+  /@tsconfig/node-lts@20.1.2:
+    resolution: {integrity: sha512-ac1p25SlBvxIG7WInTKMcIOpk+jzXcaOuhCiE4Ddq38RAvp0uWCugTedUHN4sobVTMbIKALbBI+ucGrQmPoeiA==}
     dev: false
 
-  /@tsconfig/strictest@2.0.3:
-    resolution: {integrity: sha512-MroLvRhMbqtXI5WBSwoomro6OQS4xnCoudUrMb20JO0vLKUs0bAaCEcvM/immEBSJjFAK1l6jW1oAO8q3Ancrg==}
+  /@tsconfig/strictest@2.0.4:
+    resolution: {integrity: sha512-/VKO/oufDOvAE48KGzZOEXFBKtR3PnGlb4cJoRtw3Ax5tYwaWnaNgyTJDviIbvjlnn82WMfTNvhegFkj5Xt2UA==}
     dev: false
 
   /acorn@8.11.3:
