@@ -1,6 +1,6 @@
 {
   "name": "@ouuan/tsconfig-base",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "ouuan's personal TypeScript config",
   "repository": {
     "type": "git",
