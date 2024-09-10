@@ -8,5 +8,8 @@
       "dom",
       "dom.iterable"
     ]
-  }
+  },
+  "include": [
+    "${configDir}/src/**/*.vue"
+  ]
 }

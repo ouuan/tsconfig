@@ -11,10 +11,15 @@
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true,
     "importsNotUsedAsValues": "remove",
+    "baseUrl": "${configDir}",
     "paths": {
       "~/*": [
         "src/*"
       ]
     }
-  }
+  },
+  "include": [
+    "${configDir}/*.ts",
+    "${configDir}/src/**/*.ts"
+  ]
 }
