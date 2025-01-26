@@ -10,6 +10,7 @@
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true,
     "importsNotUsedAsValues": "remove",
+    "moduleResolution": "bundler",
     "baseUrl": "${configDir}",
     "paths": {
       "~/*": [
