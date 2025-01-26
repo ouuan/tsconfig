@@ -10,6 +10,7 @@
     "resolveJsonModule": true,
     "verbatimModuleSyntax": true,
     "importsNotUsedAsValues": "remove",
+    "module": "esnext",
     "moduleResolution": "bundler",
     "baseUrl": "${configDir}",
     "paths": {
