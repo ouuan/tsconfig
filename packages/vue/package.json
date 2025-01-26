@@ -1,6 +1,6 @@
 {
   "name": "@ouuan/tsconfig-vue",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "ouuan's personal TypeScript config for Vue",
   "repository": {
     "type": "git",
