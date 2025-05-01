@@ -1,6 +1,6 @@
 {
   "name": "@ouuan/tsconfig",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "ouuan's personal TypeScript configs",
   "repository": "https://github.com/ouuan/tsconfig",
   "author": "Yufan You <ouuansteve@gmail.com>",
