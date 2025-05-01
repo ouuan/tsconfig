@@ -2,7 +2,6 @@
   "extends": "@ouuan/tsconfig-base/tsconfig.json",
   "display": "ouuan's tsconfig for Vue",
   "compilerOptions": {
-    "moduleResolution": "bundler",
     "lib": [
       "esnext",
       "dom",
@@ -10,6 +9,8 @@
     ]
   },
   "include": [
+    "${configDir}/*.ts",
+    "${configDir}/src/**/*.ts",
     "${configDir}/src/**/*.vue"
   ]
 }
