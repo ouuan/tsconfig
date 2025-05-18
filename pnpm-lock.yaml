@@ -184,8 +184,8 @@ packages:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
     engines: {node: '>= 14.18.0'}
 
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -231,7 +231,7 @@ snapshots:
       jsonc-parser: 3.3.1
       package-manager-detector: 0.2.11
       prompts: 2.4.2
-      semver: 7.7.1
+      semver: 7.7.2
       tiny-conventional-commits-parser: 0.0.1
       tinyexec: 0.3.2
       tinyglobby: 0.2.13
@@ -368,7 +368,7 @@ snapshots:
 
   readdirp@4.1.2: {}
 
-  semver@7.7.1: {}
+  semver@7.7.2: {}
 
   sisteransi@1.0.5: {}
 
