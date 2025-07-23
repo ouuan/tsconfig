@@ -108,8 +108,8 @@ packages:
     resolution: {integrity: sha512-r1ekGw/Bgpi3HLV3h1MRBIlSAdHoIMklpaQ3OQLFcRw9PwAj2rqigvIbg+dBUI51OxVI2jsEtDywDBjSiuf7Ug==}
     hasBin: true
 
-  jiti@2.4.2:
-    resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
+  jiti@2.5.0:
+    resolution: {integrity: sha512-NWDAhdnATItTnRhip9VTd8oXDjVcbhetRN6YzckApnXGxpGUooKMAaf0KVvlZG0+KlJMGkeLElVn4M1ReuxKUQ==}
     hasBin: true
 
   js-yaml@4.1.0:
@@ -245,7 +245,7 @@ snapshots:
       defu: 6.1.4
       dotenv: 16.6.1
       giget: 1.2.5
-      jiti: 2.4.2
+      jiti: 2.5.0
       mlly: 1.7.4
       ohash: 2.0.11
       pathe: 2.0.3
@@ -295,7 +295,7 @@ snapshots:
       pathe: 2.0.3
       tar: 6.2.1
 
-  jiti@2.4.2: {}
+  jiti@2.5.0: {}
 
   js-yaml@4.1.0:
     dependencies:
