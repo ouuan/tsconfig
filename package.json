@@ -13,6 +13,6 @@
     "release": "bumpp package.json packages/*/package.json --no-commit --no-push --no-tag && git commit -av && git push && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "bumpp": "10.4.0"
+    "bumpp": "10.4.1"
   }
 }
