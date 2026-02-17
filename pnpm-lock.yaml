@@ -66,8 +66,8 @@ packages:
   citty@0.1.6:
     resolution: {integrity: sha512-tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==}
 
-  citty@0.2.0:
-    resolution: {integrity: sha512-8csy5IBFI2ex2hTVpaHN2j+LNE199AgiI7y4dMintrr8i0lQiFn+0AWMZrWdHKIgMOer65f8IThysYhoReqjWA==}
+  citty@0.2.1:
+    resolution: {integrity: sha512-kEV95lFBhQgtogAPlQfJJ0WGVSokvLr/UEoFPiKKOXF7pl98HfUVUD0ejsuTCld/9xH9vogSywZ5KqHzXrZpqg==}
 
   confbox@0.2.4:
     resolution: {integrity: sha512-ysOGlgTFbN2/Y6Cg3Iye8YKulHw+R2fNXHrgSmXISQdMnomY6eNDprVdW9R5xBguEqI954+S6709UyiO7B+6OQ==}
@@ -82,8 +82,8 @@ packages:
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
 
-  dotenv@17.2.4:
-    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
+  dotenv@17.3.1:
+    resolution: {integrity: sha512-IO8C/dzEb6O3F9/twg6ZLXz164a2fhTnEWb95H23Dm4OuN+92NmEAlTrupP9VW6Jm3sO26tQlqyvyi4CsnY9GA==}
     engines: {node: '>=12'}
 
   escalade@3.2.0:
@@ -196,7 +196,7 @@ snapshots:
       chokidar: 5.0.0
       confbox: 0.2.4
       defu: 6.1.4
-      dotenv: 17.2.4
+      dotenv: 17.3.1
       exsolve: 1.0.8
       giget: 2.0.0
       jiti: 2.6.1
@@ -216,7 +216,7 @@ snapshots:
     dependencies:
       consola: 3.4.2
 
-  citty@0.2.0: {}
+  citty@0.2.1: {}
 
   confbox@0.2.4: {}
 
@@ -226,7 +226,7 @@ snapshots:
 
   destr@2.0.5: {}
 
-  dotenv@17.2.4: {}
+  dotenv@17.3.1: {}
 
   escalade@3.2.0: {}
 
@@ -253,7 +253,7 @@ snapshots:
 
   nypm@0.6.5:
     dependencies:
-      citty: 0.2.0
+      citty: 0.2.1
       pathe: 2.0.3
       tinyexec: 1.0.2
 
