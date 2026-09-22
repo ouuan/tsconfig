@@ -35,8 +35,8 @@ packages:
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
 
-  ansis@4.3.1:
-    resolution: {integrity: sha512-BJ8/l4R5LRE7hW9WdSuGYrLSHi2ynxeFpDFbH0K/CgNeY/tyhk+vO6TYxXC5r5CpUhNVX310xzPsN/H9lCdfOA==}
+  ansis@4.4.0:
+    resolution: {integrity: sha512-9k3v7xcHwgdO/DruxGIg4HtjvlAZlcnsX/mzqUb1t3NkYnl9kK2UJ+Gq0io+vQf7iT//BD/HB/NBkUR1LWxoeA==}
     engines: {node: '>=14'}
 
   args-tokenizer@0.3.0:
@@ -156,13 +156,13 @@ snapshots:
 
   '@tsconfig/strictest@2.0.8': {}
 
-  ansis@4.3.1: {}
+  ansis@4.4.0: {}
 
   args-tokenizer@0.3.0: {}
 
   bumpp@10.4.1:
     dependencies:
-      ansis: 4.3.1
+      ansis: 4.4.0
       args-tokenizer: 0.3.0
       c12: 3.3.4
       cac: 6.7.14
